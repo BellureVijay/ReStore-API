@@ -1,5 +1,55 @@
 [
   {
+    "ContainingType": "API.Controllers.ErrorHandlingController",
+    "Method": "GetBadRequest",
+    "RelativePath": "api/ErrorHandling/bad-request",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ErrorHandlingController",
+    "Method": "GetNotFound",
+    "RelativePath": "api/ErrorHandling/not-found",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ErrorHandlingController",
+    "Method": "GetServerError",
+    "RelativePath": "api/ErrorHandling/server-error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ErrorHandlingController",
+    "Method": "GetUnauthorisedError",
+    "RelativePath": "api/ErrorHandling/unauthorised",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ErrorHandlingController",
+    "Method": "GetVaidationError",
+    "RelativePath": "api/ErrorHandling/validation-error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.ProductsController",
     "Method": "getProducts",
     "RelativePath": "api/Products",

@@ -5,6 +5,66 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/ErrorHandling/not-found": {
+      "get": {
+        "tags": [
+          "ErrorHandling"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ErrorHandling/bad-request": {
+      "get": {
+        "tags": [
+          "ErrorHandling"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ErrorHandling/validation-error": {
+      "get": {
+        "tags": [
+          "ErrorHandling"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ErrorHandling/unauthorised": {
+      "get": {
+        "tags": [
+          "ErrorHandling"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ErrorHandling/server-error": {
+      "get": {
+        "tags": [
+          "ErrorHandling"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Products": {
       "get": {
         "tags": [
